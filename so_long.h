@@ -6,7 +6,7 @@
 /*   By: cyaid <cyaid@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 03:02:46 by cyaid             #+#    #+#             */
-/*   Updated: 2024/01/23 04:58:45 by cyaid            ###   ########.fr       */
+/*   Updated: 2024/01/25 02:59:43 by cyaid            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -70,7 +70,7 @@ typedef struct s_mlx_data
 	int			sorti_y;
 	char		**jeu;
 	int			c;
-	void		*img[5];
+	int			movenmbr;
 	int			lon;
 	int			lar;
 }				t_mlx;

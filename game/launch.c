@@ -6,7 +6,7 @@
 /*   By: cyaid <cyaid@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/28 22:16:45 by cyaid             #+#    #+#             */
-/*   Updated: 2024/01/22 21:41:19 by cyaid            ###   ########.fr       */
+/*   Updated: 2024/01/25 03:05:06 by cyaid            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,6 +43,7 @@ void	mlx_l(char **c)
 {
 	static t_mlx	data = {0};
 
+	data.movenmbr = 0;
 	data.mlx_ptr = mlx_init();
 	if (!data.mlx_ptr)
 		return ;
