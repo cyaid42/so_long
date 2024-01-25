@@ -6,7 +6,7 @@
 /*   By: cyaid <cyaid@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/12/13 01:22:07 by cyaid             #+#    #+#             */
-/*   Updated: 2024/01/24 05:09:42 by cyaid            ###   ########.fr       */
+/*   Updated: 2024/01/25 10:30:50 by cyaid            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,8 @@ int	verif(char **c, t_data *data)
 			data->i = 0;
 			ft_printf("\n\n  |MAP_OVERWIEW|	\n\n");
 			while (c[data->i])
-			{
 				ft_printf("\n%s", c[data->i++]);
-			}
+			ft_printf("\n");
 			free_map(data->copie);
 			free(data);
 			mlx_l(c);

@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: cyaid <cyaid@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/12/29 02:50:48 by cyaid             #+#    #+#             */
-/*   Updated: 2024/01/18 08:22:55 by cyaid            ###   ########.fr       */
+/*   |Created: 2023/12|/29 02:50:48 by cyaid             #+#    #+#             */
+/*   Updated: 2024/01/25 10:25:30 by cyaid            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,9 @@ int	move_up(t_mlx *data)
 		move_up_util(data);
 		if (data->c == 0)
 		{
-			ft_printf("\ncreation de la sortie\n");
+			ft_printf("\n\n<--------------------->");
+			ft_printf("\n|CREATION DE LA SORTIE|");
+			ft_printf("\n<--------------------->\n");
 		}
 	}
 	else if (data->jeu[data->player_x - 1][data->player_y] == 'E'
@@ -41,7 +43,9 @@ int	move_down(t_mlx *data)
 		move_down_util(data);
 		if (data->c == 0)
 		{
-			ft_printf("\ncreation de la sortie\n");
+			ft_printf("\n\n<--------------------->");
+			ft_printf("\n|CREATION DE LA SORTIE|");
+			ft_printf("\n<--------------------->\n");
 		}
 	}
 	else if (data->jeu[data->player_x + 1][data->player_y] == 'E'
@@ -60,7 +64,9 @@ int	move_left(t_mlx *data)
 		move_left_util(data);
 		if (data->c == 0)
 		{
-			ft_printf("\ncreation de la sortie\n");
+			ft_printf("\n\n<--------------------->");
+			ft_printf("\n|CREATION DE LA SORTIE|");
+			ft_printf("\n<--------------------->\n");
 		}
 	}
 	else if (data->jeu[data->player_x][data->player_y - 1] == 'E'
@@ -79,7 +85,9 @@ int	move_right(t_mlx *data)
 		move_right_util(data);
 		if (data->c == 0)
 		{
-			ft_printf("\ncreation de la sortie\n");
+			ft_printf("\n\n<--------------------->");
+			ft_printf("\n|CREATION DE LA SORTIE|");
+			ft_printf("\n<--------------------->\n");
 		}
 	}
 	else if (data->jeu[data->player_x][data->player_y + 1] == 'E'
